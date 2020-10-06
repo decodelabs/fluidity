@@ -22,3 +22,4 @@ install:
 
 script:
     - 'composer run-script analyze -- --no-interaction --no-progress'
+    - 'composer run-script psr12 -- --no-interaction --no-progress'
