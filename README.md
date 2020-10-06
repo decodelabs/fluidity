@@ -48,7 +48,7 @@ $test
         $test->doThing($value);
     })
 
-    ->thenWhen($truth, function($test) {
+    ->thenIf($truth, function($test) {
         // This gets called if($truth)
     }, function($test) {
         // This get called otherwise
