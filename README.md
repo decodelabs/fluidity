@@ -18,7 +18,7 @@ namespace DecodeLabs\Fluidity;
 interface Then
 {
     public function then(callable $callback): Then;
-    public function thenEach(array $values, callable $callback): Then;
+    public function thenEach(iterable $values, callable $callback): Then;
     public function thenWhen($truth, callable $yes, callable $no=null): Then;
     public function thenUnless($truth, callable $no, callable $yes=null): Then;
 }
