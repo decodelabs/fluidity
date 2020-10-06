@@ -22,3 +22,4 @@ install:
 
 script:
     - 'composer run-script analyze -- --no-interaction --no-progress'
+    - 'php tests/RunReadme.php'
