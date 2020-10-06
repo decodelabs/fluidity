@@ -9,8 +9,6 @@ declare(strict_types=1);
 
 namespace DecodeLabs\Fluidity;
 
-use DecodeLabs\Fluidity\Then;
-
 trait ThenTrait
 {
     /**
