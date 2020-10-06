@@ -19,8 +19,8 @@ interface Then
 {
     public function then(callable $callback): Then;
     public function thenEach(iterable $values, callable $callback): Then;
-    public function thenWhen($truth, callable $yes, callable $no=null): Then;
-    public function thenUnless($truth, callable $no, callable $yes=null): Then;
+    public function thenWhen(bool $truth, callable $yes, callable $no=null): Then;
+    public function thenUnless(bool $truth, callable $no, callable $yes=null): Then;
 }
 ```
 
@@ -62,6 +62,6 @@ $test
 ```
 
 
-
 ## Licensing
+
 Fluidity is licensed under the MIT License. See [LICENSE](./LICENSE) for the full license text.
