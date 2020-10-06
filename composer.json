@@ -34,7 +34,8 @@
         }
     },
     "scripts": {
-        "analyze": "phpstan analyze",
-        "psr12": "ecs check src"
+        "analyze": "phpstan analyze --no-progress",
+        "psr12": "ecs check --no-progress-bar",
+        "psr12-fix": "ecs check --no-progress-bar --fix"
     }
 }
