@@ -26,5 +26,8 @@
         "branch-alias": {
             "dev-develop": "0.1.x-dev"
         }
+    },
+    "scripts": {
+        "analyze": "phpstan analyze"
     }
 }
