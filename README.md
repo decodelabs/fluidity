@@ -19,7 +19,7 @@ interface Then
 {
     public function then(callable $callback): Then;
     public function thenEach(iterable $values, callable $callback): Then;
-    public function thenWhen(bool $truth, callable $yes, callable $no=null): Then;
+    public function thenIf(bool $truth, callable $yes, callable $no=null): Then;
     public function thenUnless(bool $truth, callable $no, callable $yes=null): Then;
 }
 ```
@@ -48,7 +48,7 @@ $test
         $test->doThing($value);
     })
 
-    ->thenWhen($truth, function($test) {
+    ->thenIf($truth, function($test) {
         // This gets called if($truth)
     }, function($test) {
         // This get called otherwise
