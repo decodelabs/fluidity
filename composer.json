@@ -22,6 +22,11 @@
             "DecodeLabs\\Fluidity\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "DecodeLabs\\Fluidity\\Tests\\": "tests/"
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-develop": "0.1.x-dev"
