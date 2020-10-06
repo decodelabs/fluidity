@@ -1,9 +1,12 @@
 <?php
+
 /**
- * This file is part of the Fluidity package
+ * @package Fluidity
  * @license http://opensource.org/licenses/MIT
  */
+
 declare(strict_types=1);
+
 namespace DecodeLabs\Fluidity;
 
 use DecodeLabs\Fluidity\Then;
@@ -18,6 +21,7 @@ trait ThenTrait
     public function then(callable $callback): Then
     {
         $callback($this);
+
         return $this;
     }
 
@@ -42,11 +46,11 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function thenIf($truth, callable $yes, callable $no=null): Then
+    public function thenIf($truth, callable $yes, callable $no = null): Then
     {
         if ($truth) {
             $yes($this, $truth);
-        } elseif ($no) {
+        } elseif (is_callable($no)) {
             $no($this, $truth);
         }
 
@@ -59,11 +63,11 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function thenUnless($truth, callable $no, callable $yes=null): Then
+    public function thenUnless($truth, callable $no, callable $yes = null): Then
     {
         if (!$truth) {
             $no($this, $truth);
-        } elseif ($yes) {
+        } elseif (is_callable($yes)) {
             $yes($this, $truth);
         }
 
