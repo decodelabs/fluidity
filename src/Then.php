@@ -18,13 +18,7 @@ interface Then
      */
     public function thenEach(array $values, callable $callback): Then;
 
-    /**
-     * @param bool $truth
-     */
-    public function thenIf($truth, callable $yes, callable $no = null): Then;
+    public function thenIf(bool $truth, callable $yes, callable $no = null): Then;
 
-    /**
-     * @param bool $truth
-     */
-    public function thenUnless($truth, callable $no, callable $yes = null): Then;
+    public function thenUnless(bool $truth, callable $no, callable $yes = null): Then;
 }
