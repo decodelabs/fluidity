@@ -21,6 +21,7 @@ trait ThenTrait
     public function then(callable $callback): Then
     {
         $callback($this);
+
         return $this;
     }
 
@@ -49,7 +50,7 @@ trait ThenTrait
     {
         if ($truth) {
             $yes($this, $truth);
-        } elseif ($no) {
+        } elseif (is_callable($no)) {
             $no($this, $truth);
         }
 
@@ -66,7 +67,7 @@ trait ThenTrait
     {
         if (!$truth) {
             $no($this, $truth);
-        } elseif ($yes) {
+        } elseif (is_callable($yes)) {
             $yes($this, $truth);
         }
 
