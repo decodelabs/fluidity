@@ -31,7 +31,7 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function thenEach(array $values, callable $callback): Then
+    public function thenEach(iterable $values, callable $callback): Then
     {
         foreach ($values as $key => $value) {
             $callback($this, $value, $key);
