@@ -19,8 +19,8 @@ interface Then
 {
     public function then(callable $callback): Then;
     public function thenEach(iterable $values, callable $callback): Then;
-    public function thenIf(bool $truth, callable $yes, callable $no=null): Then;
-    public function thenUnless(bool $truth, callable $no, callable $yes=null): Then;
+    public function thenIf(?bool $truth, callable $yes, callable $no=null): Then;
+    public function thenUnless(?bool $truth, callable $no, callable $yes=null): Then;
 }
 ```
 
