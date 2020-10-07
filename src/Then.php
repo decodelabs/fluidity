@@ -25,10 +25,10 @@ interface Then
     /**
      * @return $this
      */
-    public function thenIf(bool $truth, callable $yes, callable $no = null): Then;
+    public function thenIf(?bool $truth, callable $yes, callable $no = null): Then;
 
     /**
      * @return $this
      */
-    public function thenUnless(bool $truth, callable $no, callable $yes = null): Then;
+    public function thenUnless(?bool $truth, callable $no, callable $yes = null): Then;
 }
