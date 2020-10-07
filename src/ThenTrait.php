@@ -46,7 +46,7 @@ trait ThenTrait
      */
     public function thenIf(?bool $truth, callable $yes, callable $no = null): Then
     {
-        if ($truth) {
+        if ($truth === true) {
             $yes($this, $truth);
         } elseif (is_callable($no)) {
             $no($this, $truth);
@@ -63,7 +63,7 @@ trait ThenTrait
      */
     public function thenUnless(?bool $truth, callable $no, callable $yes = null): Then
     {
-        if (!$truth) {
+        if ($truth !== true) {
             $no($this, $truth);
         } elseif (is_callable($yes)) {
             $yes($this, $truth);
