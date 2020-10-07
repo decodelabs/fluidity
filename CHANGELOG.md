@@ -1,3 +1,6 @@
+## v0.1.2 (2020-10-07)
+* Made Then $truth nullable
+
 ## v0.1.1 (2020-10-06)
 * Fixed types and method names in readme
 * Applied full PSR12 standards
