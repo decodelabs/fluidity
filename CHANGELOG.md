@@ -1,3 +1,6 @@
+## v0.2.0 (2021-03-18)
+* Enable PHP8 testing
+
 ## v0.1.2 (2020-10-07)
 * Made Then $truth nullable
 
