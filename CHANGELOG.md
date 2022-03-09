@@ -1,3 +1,6 @@
+* Transitioned from Travis to GHA
+* Updated PHPStan and ECS dependencies
+
 ## v0.2.0 (2021-03-18)
 * Enable PHP8 testing
 
