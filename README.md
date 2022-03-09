@@ -3,7 +3,7 @@
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/decodelabs/fluidity?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
 [![Latest Version](https://img.shields.io/packagist/v/decodelabs/fluidity.svg?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
 [![Total Downloads](https://img.shields.io/packagist/dt/decodelabs/fluidity.svg?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/decodelabs/fluidity/PHP%20Composer)](https://github.com/decodelabs/gadgets/actions/workflows/php.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/decodelabs/fluidity/PHP%20Composer)](https://github.com/decodelabs/fluidity/actions/workflows/php.yml)
 [![PHPStan](https://img.shields.io/badge/PHPStan-enabled-44CC11.svg?longCache=true&style=flat)](https://github.com/phpstan/phpstan)
 [![License](https://img.shields.io/packagist/l/decodelabs/fluidity?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
 
