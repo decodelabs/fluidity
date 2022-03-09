@@ -1,11 +1,11 @@
 # Fluidity
 
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/decodelabs/fluidity?style=flat-square)](https://packagist.org/packages/decodelabs/fluidity)
-[![Latest Version](https://img.shields.io/packagist/v/decodelabs/fluidity.svg?style=flat-square)](https://packagist.org/packages/decodelabs/fluidity)
-[![Total Downloads](https://img.shields.io/packagist/dt/decodelabs/fluidity.svg?style=flat-square)](https://packagist.org/packages/decodelabs/fluidity)
-[![Build Status](https://img.shields.io/travis/com/decodelabs/fluidity/main.svg?style=flat-square)](https://app.travis-ci.com/github/decodelabs/fluidity)
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-44CC11.svg?longCache=true&style=flat-square)](https://github.com/phpstan/phpstan)
-[![License](https://img.shields.io/packagist/l/decodelabs/fluidity?style=flat-square)](https://packagist.org/packages/decodelabs/fluidity)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/decodelabs/fluidity?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
+[![Latest Version](https://img.shields.io/packagist/v/decodelabs/fluidity.svg?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
+[![Total Downloads](https://img.shields.io/packagist/dt/decodelabs/fluidity.svg?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/decodelabs/fluidity/PHP%20Composer)](https://github.com/decodelabs/gadgets/actions/workflows/php.yml)
+[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-44CC11.svg?longCache=true&style=flat)](https://github.com/phpstan/phpstan)
+[![License](https://img.shields.io/packagist/l/decodelabs/fluidity?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
 
 Tools for creating fluent interfaces.
 
