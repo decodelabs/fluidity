@@ -20,15 +20,26 @@ interface Then
      * @param iterable<mixed, mixed> $values
      * @return $this
      */
-    public function thenEach(iterable $values, callable $callback): Then;
+    public function thenEach(
+        iterable $values,
+        callable $callback
+    ): Then;
 
     /**
      * @return $this
      */
-    public function thenIf(?bool $truth, callable $yes, callable $no = null): Then;
+    public function thenIf(
+        ?bool $truth,
+        callable $yes,
+        callable $no = null
+    ): Then;
 
     /**
      * @return $this
      */
-    public function thenUnless(?bool $truth, callable $no, callable $yes = null): Then;
+    public function thenUnless(
+        ?bool $truth,
+        callable $no,
+        callable $yes = null
+    ): Then;
 }
