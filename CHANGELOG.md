@@ -1,3 +1,5 @@
+* Updated CI environment
+
 ## v0.3.0 (2022-08-23)
 * Removed PHP7 compatibility
 * Updated ECS to v11
