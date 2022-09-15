@@ -15,12 +15,12 @@ namespace DecodeLabs\Fluidity;
 interface SingleParameterFactory
 {
     /**
-     * @phpstan-param TInput $value
+     * @phpstan-param TInput|static $value
      */
     public static function instance(mixed $value): static;
 
     /**
-     * @phpstan-param TInput|null $value
+     * @phpstan-param TInput|static|null $value
      */
     public static function orNull(mixed $value): ?static;
 

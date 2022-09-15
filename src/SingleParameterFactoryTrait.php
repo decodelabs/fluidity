@@ -17,15 +17,19 @@ use Throwable;
 trait SingleParameterFactoryTrait
 {
     /**
-     * @phpstan-param TInput $value
+     * @phpstan-param TInput|static $value
      */
     public static function instance(mixed $value): static
     {
+        if ($value instanceof static) {
+            return $value;
+        }
+
         return new static($value);
     }
 
     /**
-     * @phpstan-param TInput|null $value
+     * @phpstan-param TInput|static|null $value
      */
     public static function orNull(mixed $value): ?static
     {
