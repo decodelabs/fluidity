@@ -21,6 +21,10 @@ trait SingleParameterFactoryTrait
      */
     public static function instance(mixed $value): static
     {
+        if ($value instanceof static) {
+            return $value;
+        }
+
         return new static($value);
     }
 
