@@ -29,8 +29,10 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function thenEach(iterable $values, callable $callback): Then
-    {
+    public function thenEach(
+        iterable $values,
+        callable $callback
+    ): Then {
         foreach ($values as $key => $value) {
             $callback($this, $value, $key);
         }
@@ -44,8 +46,11 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function thenIf(?bool $truth, callable $yes, callable $no = null): Then
-    {
+    public function thenIf(
+        ?bool $truth,
+        callable $yes,
+        callable $no = null
+    ): Then {
         if ($truth === true) {
             $yes($this, $truth);
         } elseif (is_callable($no)) {
@@ -61,8 +66,11 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function thenUnless(?bool $truth, callable $no, callable $yes = null): Then
-    {
+    public function thenUnless(
+        ?bool $truth,
+        callable $no,
+        callable $yes = null
+    ): Then {
         if ($truth !== true) {
             $no($this, $truth);
         } elseif (is_callable($yes)) {
