@@ -1,3 +1,5 @@
+## v0.3.1 (2022-09-15)
+* Added SingleParameterFactory interface
 * Updated CI environment
 
 ## v0.3.0 (2022-08-23)
