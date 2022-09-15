@@ -1,3 +1,6 @@
+## v0.3.2 (2022-09-15)
+* Added static instance check in instance()
+
 ## v0.3.1 (2022-09-15)
 * Added SingleParameterFactory interface
 * Updated CI environment
