@@ -1,3 +1,7 @@
+## v0.3.3 (2022-10-24)
+* Added Cast interface
+* Updated composer check script
+
 ## v0.3.2 (2022-09-15)
 * Added static instance check in instance()
 

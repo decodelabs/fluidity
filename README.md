@@ -7,7 +7,13 @@
 [![PHPStan](https://img.shields.io/badge/PHPStan-enabled-44CC11.svg?longCache=true&style=flat)](https://github.com/phpstan/phpstan)
 [![License](https://img.shields.io/packagist/l/decodelabs/fluidity?style=flat)](https://packagist.org/packages/decodelabs/fluidity)
 
-Tools for creating fluent interfaces.
+### Tools for creating fluent interfaces.
+
+Fluidity provides a set of middleware interfaces that aid in the development of libraries that themselves aim to provide fluid interfaces.
+
+_Get news and updates on the [DecodeLabs blog](https://blog.decodelabs.com)._
+
+---
 
 ## Installation
 
