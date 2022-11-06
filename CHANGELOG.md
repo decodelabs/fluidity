@@ -1,3 +1,5 @@
+* Fixed PHP8.1 testing
+
 ## v0.3.3 (2022-10-24)
 * Added Cast interface
 * Updated composer check script
