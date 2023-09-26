@@ -1,3 +1,4 @@
+## v0.3.4 (2023-09-26)
 * Converted phpstan doc comments to generic
 * Migrated to use effigy in CI workflow
 * Fixed PHP8.1 testing
