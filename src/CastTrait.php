@@ -15,8 +15,8 @@ trait CastTrait
 {
     /**
      * @template T of object
-     * @phpstan-param class-string<T> $type
-     * @phpstan-return $this&T
+     * @param class-string<T> $type
+     * @return $this&T
      */
     public function as(string $type): static
     {
