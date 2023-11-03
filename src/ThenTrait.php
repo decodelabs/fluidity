@@ -16,8 +16,9 @@ trait ThenTrait
      *
      * @return $this
      */
-    public function then(callable $callback): Then
-    {
+    public function then(
+        callable $callback
+    ): Then {
         $callback($this);
 
         return $this;

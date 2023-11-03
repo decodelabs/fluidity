@@ -19,8 +19,9 @@ trait SingleParameterFactoryTrait
     /**
      * @param TInput|static $value
      */
-    public static function instance(mixed $value): static
-    {
+    public static function instance(
+        mixed $value
+    ): static {
         if ($value instanceof static) {
             return $value;
         }
@@ -31,8 +32,9 @@ trait SingleParameterFactoryTrait
     /**
      * @param TInput|static|null $value
      */
-    public static function orNull(mixed $value): ?static
-    {
+    public static function orNull(
+        mixed $value
+    ): ?static {
         if ($value === null) {
             return null;
         }

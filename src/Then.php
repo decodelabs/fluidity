@@ -14,7 +14,9 @@ interface Then
     /**
      * @return $this
      */
-    public function then(callable $callback): Then;
+    public function then(
+        callable $callback
+    ): Then;
 
     /**
      * @param iterable<mixed, mixed> $values
