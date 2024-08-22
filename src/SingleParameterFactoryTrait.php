@@ -13,6 +13,7 @@ use Throwable;
 
 /**
  * @template TInput
+ * @phpstan-require-implements SingleParameterFactory<TInput>
  */
 trait SingleParameterFactoryTrait
 {

@@ -9,6 +9,9 @@ declare(strict_types=1);
 
 namespace DecodeLabs\Fluidity;
 
+/**
+ * @phpstan-require-implements Then
+ */
 trait ThenTrait
 {
     /**

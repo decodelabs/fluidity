@@ -1,3 +1,4 @@
+* Added @phpstan-require-implements constraints
 * Made PHP8.1 minimum version
 
 ## v0.3.4 (2023-09-26)

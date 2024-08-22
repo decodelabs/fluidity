@@ -11,6 +11,9 @@ namespace DecodeLabs\Fluidity;
 
 use TypeError;
 
+/**
+ * @phpstan-require-implements Cast
+ */
 trait CastTrait
 {
     /**
