@@ -53,7 +53,7 @@ trait ThenTrait
     public function thenIf(
         ?bool $truth,
         callable $yes,
-        callable $no = null
+        ?callable $no = null
     ): Then {
         if ($truth === true) {
             $yes($this, $truth);
@@ -73,7 +73,7 @@ trait ThenTrait
     public function thenUnless(
         ?bool $truth,
         callable $no,
-        callable $yes = null
+        ?callable $yes = null
     ): Then {
         if ($truth !== true) {
             $no($this, $truth);

@@ -33,7 +33,7 @@ interface Then
     public function thenIf(
         ?bool $truth,
         callable $yes,
-        callable $no = null
+        ?callable $no = null
     ): Then;
 
     /**
@@ -42,6 +42,6 @@ interface Then
     public function thenUnless(
         ?bool $truth,
         callable $no,
-        callable $yes = null
+        ?callable $yes = null
     ): Then;
 }
