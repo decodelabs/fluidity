@@ -11,6 +11,9 @@ namespace DecodeLabs\Fluidity;
 
 use TypeError;
 
+/**
+ * @phpstan-require-implements Cast
+ */
 trait CastTrait
 {
     /**
@@ -18,8 +21,9 @@ trait CastTrait
      * @param class-string<T> $type
      * @return $this&T
      */
-    public function as(string $type): static
-    {
+    public function as(
+        string $type
+    ): static {
         if (!$this instanceof $type) {
             throw new TypeError(get_class($this) . ' cannot be cast to ' . $type);
         }

@@ -16,5 +16,7 @@ interface Cast
      * @param class-string<T> $type
      * @return $this&T
      */
-    public function as(string $type): static;
+    public function as(
+        string $type
+    ): static;
 }
