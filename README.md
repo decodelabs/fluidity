@@ -11,8 +11,6 @@
 
 Fluidity provides a set of middleware interfaces that aid in the development of libraries that themselves aim to provide fluid interfaces.
 
-_Get news and updates on the [DecodeLabs blog](https://blog.decodelabs.com)._
-
 ---
 
 ## Installation
