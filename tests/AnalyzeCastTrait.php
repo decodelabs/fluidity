@@ -20,7 +20,7 @@ class AnalyzeCastTrait implements Cast
     {
         return new ExtensionCastTrait();
     }
-};
+}
 
 class ExtensionCastTrait extends AnalyzeCastTrait
 {

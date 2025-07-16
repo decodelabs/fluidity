@@ -15,4 +15,4 @@ use DecodeLabs\Fluidity\ThenTrait;
 class AnalyzeThenTrait implements Then
 {
     use ThenTrait;
-};
+}
