@@ -15,8 +15,6 @@ namespace DecodeLabs\Fluidity;
 trait ThenTrait
 {
     /**
-     * Pass parent to callback
-     *
      * @return $this
      */
     public function then(
@@ -29,8 +27,6 @@ trait ThenTrait
 
 
     /**
-     * For each value in $values, call callback with parent
-     *
      * @return $this
      */
     public function thenEach(
@@ -46,8 +42,6 @@ trait ThenTrait
 
 
     /**
-     * If $truth, call $yes, otherwise call $no
-     *
      * @return $this
      */
     public function thenIf(
@@ -66,8 +60,6 @@ trait ThenTrait
 
 
     /**
-     * If !$truth, call $no, otherwise call $yes
-     *
      * @return $this
      */
     public function thenUnless(
