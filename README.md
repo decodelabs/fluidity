@@ -15,6 +15,8 @@ Fluidity provides a set of middleware interfaces that aid in the development of 
 
 ## Installation
 
+This package requires PHP 8.4 or higher.
+
 Install via Composer:
 
 ```bash
