@@ -2,16 +2,24 @@
     "name": "decodelabs/fluidity",
     "description": "Tools for creating fluent interfaces",
     "type": "library",
-    "keywords": [ "library", "tools", "fluent", "fluid" ],
+    "keywords": [
+        "library",
+        "tools",
+        "fluent",
+        "fluid"
+    ],
     "license": "MIT",
-    "authors": [ {
+    "authors": [
+        {
             "name": "Tom Wright",
             "email": "tom@inflatablecookie.com"
-        } ],
+        }
+    ],
     "require": {
         "php": "^8.4"
     },
     "require-dev": {
+        "decodelabs/chorus": "^0.1",
         "decodelabs/phpstan-decodelabs": "^0.7"
     },
     "autoload": {
